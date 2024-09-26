@@ -94,27 +94,27 @@ public class UI implements ActionListener {
       butMultiply = new JButton("*");      
       butDivide = new JButton("/");      
       butEqual = new JButton("=");      
-      butSquareRoot = new JButton("sqrt");      
-      butSquare = new JButton("x*x");      
-      butOneDividedBy = new JButton("1/x");      
-      butCos = new JButton("Cos");      
-      butSin = new JButton("Sin");      
-      butTan = new JButton("Tan");      
-      butxpowerofy = new JButton("x^y");      
-      butlog = new JButton("log10(x)");      
-      butrate = new JButton("x%");      
-      butabs = new JButton("abs(x)");      
-      butCancel = new JButton("C");      
-      butBinary = new JButton("Bin");      
+      butSquareRoot = new JButton("SquareRoot");
+      butSquare = new JButton("x^2");
+      butOneDividedBy = new JButton("1/x");
+      butCos = new JButton("Cosine");
+      butSin = new JButton("Sine");
+      butTan = new JButton("Tangent");
+      butxpowerofy = new JButton("x^y");
+      butlog = new JButton("log10(x)");
+      butrate = new JButton("x/100");
+      butabs = new JButton("abs(x)");
+      butCancel = new JButton("C");
+      butBinary = new JButton("Bin");
       
       calc = new Calculator();
       
    }
    
    public void init() {      
-      frame.setSize(450, 450);
-      frame.setLocationRelativeTo(null); 
-      frame.setResizable(false);
+      frame.setSize(400, 500);
+      frame.setLocationRelativeTo(null);
+      frame.setResizable(true);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setIconImage(image.getImage());
       
